@@ -1,0 +1,12 @@
+[package]
+name = "txtoolkit"
+version = "0.1.0"
+edition = "2021"
+description = "A PDF passing CLI tool to output text."
+license = "MIT"
+authors = ["Adel-Ayoub"]
+
+[dependencies]
+pdf-extract = { version = "0.7" }
+reqwest = { version = "0.11", features = ["blocking"] }
+clap = { version = "4.4.0", features = ["derive"] }

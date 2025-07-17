@@ -1,0 +1,10 @@
+# Rust build artifacts
+/target/
+
+# Nix build results
+result
+result-*
+
+# OS files
+.DS_Store
+Thumbs.db
