@@ -16,7 +16,7 @@ cd txtoolkit
 # Option 1: Manual Rust setup (if you have Rust installed)
 cargo install --path .
 
-# Option 2: Using Nix (if you have Nix installed)
+# Option 2: Using Nix (uses the provided flake configuration)
 nix develop
 cargo install --path .
 ```
